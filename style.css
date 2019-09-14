@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* --------------------Nav-bar---------------------- */
+
+
+/* -------------------------------------------------------------- */
+
+#navbar header {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 195%;
+}
+
+#navbar li {
+    text-align: left;
+    font-size: 120%;
+    border-top: 1px solid black;
+}
+
+li a {
+    color: #4d4e53;
+}
+
+#navbar {
+    border-right: 1px solid rgba(0, 22, 22, 0.4);
+    position: fixed;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* --------------------Main-doc---------------------- */
+
+
+/* -------------------------------------------------------------- */
+
+.main-section header {
+    font-size: 195%;
+    margin-top: 20px;
+    margin-left: -65px;
+    margin-bottom: 15px;
+}
+
+article p {
+    margin-left: -45px;
+    margin-right: 30px;
+}
+
+article ul {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+article ul li {
+    margin-top: 15px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    margin-left: -30px;
+    margin-right: 350px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
